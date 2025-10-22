@@ -1,0 +1,326 @@
+body {
+  background-color: #EAE2B7;
+  margin:0%;
+  padding: 0px;
+}
+
+#header{
+  font-family: 'Concert One';
+  text-align: center;
+  font-size: 100px;
+  margin-bottom: 40px;
+  color: #FCBF49;
+
+  /* shadow */
+  -webkit-text-stroke: 0.0009375rem #0d1b1e;
+  -o-text-stroke: 0.0009375rem #0d1b1e;
+  text-stroke: 0.0009375rem #0d1b1e;
+  letter-spacing: 6px;
+  text-shadow: 3px 3px 0px #ab0a12;
+}
+
+.subheader{
+  margin:50px;
+  padding:50px;
+  margin-top:0px;
+  padding-top:0px;
+  color: #ab0a12;
+}
+
+iframe{
+  margin:60px;
+  margin-right:80px;
+  box-shadow: #003049 25px 16px;
+}
+
+
+h1 {
+  color: #177353;
+  text-align: center;
+  margin-top: 300px;
+  font-size: 40px;
+  font-family: 'Concert One', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  color: #177353;
+  text-align: center;
+  font-family: 'Concert One', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  color: #177353;
+  font-family: 'Concert One', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+p {
+  color: #627E8B;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Concert One', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* NAVIGATION BAR DO NOT CHANGE */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* z-index: 90; */
+}
+
+li {
+  float: right;
+  padding: 15px;
+  font-family: "Concert One";
+  font-size: 30px;
+  vertical-align: middle;
+  /* z-index: 90; */
+}
+
+li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px 26px;
+  text-decoration: none;
+  /* z-index: 90; */
+}
+
+
+.nav-bar {
+  /* overflow: hidden; */
+  font-family: "Concert One";
+  background-color: #003049;
+  z-index: 999;
+  color: white;
+  /* z-index: 90; */
+}
+
+
+.navbar.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* z-index: 90; */
+  /* ... other navbar styles ... */
+}
+
+.navbar.sticky ul {
+  /* This is important! */
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar.sticky li a {
+  padding: 15px 20px;
+  /* Adjust these values as needed */
+}
+
+.navbar.sticky li a:hover {
+  /* This is the trick */
+  background-color: #ddd;
+  transition: background-color 0.3s ease;
+  /* Optional transition effect */
+}
+
+
+.dropdown {
+  float: left;
+  /* z-index: 90; */
+
+}
+
+
+.dropdown .dropbtn {
+  /* font-size: 16px;   */
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 0;
+  /* padding: 14px 20px; */
+  padding: 14px 29px;
+  background-color: #003049;
+  z-index: 999;
+  font-family: "Concert One";
+  margin: 0;
+  font-size: inherit;
+
+  /* z-index: 90; */
+}
+
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  color: #FCBF49;
+
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  /* z-index: 90; */
+}
+
+.dropdown-content a {
+  /* float: none; */
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  z-index: 999;
+  background-color: #003049;
+}
+
+.dropdown-content a:hover {
+  color: red;
+}
+
+.about-us {
+  position: relative;
+  top: 14px;
+  padding-left:15px;
+  padding-right:15px;
+}
+
+nav {
+  /* Targets the entire navigation bar */
+  background-color: #f0f0f0;
+  z-index: 999;
+}
+
+.nav-item {
+  background-color: transparent;
+  /* Remove any default background */
+}
+
+.nav-item a:hover {
+  background-color: #FCBF49;
+}
+
+.nav a:hover {
+  color: #FCBF49;
+  background-color: transparent;
+}
+
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.homebutton {
+  position: fixed;
+  left: 0;
+  top: -.1vw;
+  padding: 15px;
+  padding-bottom: 6px;
+  padding-right: 250px;
+  overflow: hidden;
+  font-size: 50px;
+  font-family: "Concert One";
+  color: white;
+}
+
+mark.homebutton-text {
+  position: fixed;
+  left: 70px;
+  top: .20vw;
+  padding: 15px;
+  font-size: 45px;
+  font-family: "Concert One";
+  color: white;
+  background-color: transparent;
+}
+
+/* END OF NAV BAR CSS */
+
+.banner {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  opacity: 45%;
+  top:0;
+}
+
+
+
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 20px;
+  padding-top: 200px;
+}
+
+.text-sections {
+  font-size: 16px;
+  margin:16px;
+  padding: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.image-container img{
+  box-shadow: #003049 25px 16px;
+}
+
+
+
+.utensils-mannerisms{
+  background-color: transparent;
+  font-size: 25px;
+  font-weight: bold; 
+  margin:16px;
+  padding: 20px;
+  color: #627E8B;
+} 
+
+.allergens-dietary-restrictions { 
+  font-size: 25px;
+  margin:16px;
+  padding: 20px;
+  color: #627E8B;
+  
+}
+
+mark.subtitle {
+  font-size: 35px;
+  font-weight: bold;
+  background-color: transparent;
+  color: #003049
+}
+
+/* footer */
+footer{
+  background-color: #003049;
+  padding: 10px;
+  margin:0px;
+  margin-top:30px;
+  font-family: "Concert One";
+  font-size: 20px;
+  color: #627E8B;
+  text-align: center;
+  
+}
+
+.footerdeets{
+  text-align: right;
+  display: inline;
+}
