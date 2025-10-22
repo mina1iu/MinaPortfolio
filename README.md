@@ -1,5 +1,1 @@
-# Eatiquette
-# Eatiquette
-# Eatiquette
-# Eatiquette
-# Eatiquette
+# This is Mina Liu's Portfolio
