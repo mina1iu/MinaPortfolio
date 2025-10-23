@@ -226,9 +226,7 @@ li a {
 
 
 .dropdown {
-  float: left;
-  /* z-index: 90; */
-
+   position: relative;
 }
 
 
@@ -369,7 +367,7 @@ footer{
   margin-top:30px;
   font-family: "Concert One";
   font-size: 20px;
-  
+
 }
 
 .footerdeets{
