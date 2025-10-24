@@ -1,89 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Feedback | Eatiquette</title>
-  <link href="about.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
 
-  <!-- Concert One -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css" />
 
-  <head>
-    <link rel="shortcut icon" type="image/x-icon"
-      href="logo.png" />
-  </head>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
 </head>
-
 
 <body>
 
-  <!-- NAV BAR STUFF -->
-  <div class="navbar">
-    <ul class="nav-bar">
-      <li class="nav-item">
-        <a class="homebutton" href="index.html"><img src="logo.png" alt="logo" height=65px width=auto><mark
-            class="homebutton-text">EATIQUETTE</mark></a>
-        <div class="nav">
-          <div class="dropdown">
-            <button class="dropbtn">COUNTRIES </button>
-            <div class="dropdown-content">
-              <a href="work1.html">Chile</a>
-              <a href="work2.html">China</a>
-              <a href="france.html">France</a>
-              <a href="work3.html">Ghana</a>
-              <a href="india.html">India</a>
-              <a href="korea.html">Korea</a>
-              <a href="mexico.html">Mexico</a>
+<div id="navbar-placeholder"></div>
 
-            </div>
-          </div>
-          <a class="about-us" href="about_me.html">ABOUT US</a>
-          <a class = "about-us" href = "contact.html">FEEDBACK</a>
+<div class="contact-page-wrapper">
+    <div class="container">
+
+        <h2 class="aboutHeader">Contact Me</h2>
+
+        <p class="text">
+            I'd love to hear from you! The best way to get in touch is to send me an email.
+        </p>
+
+        <p class="contact-email-link">
+            <a href="mailto:minaliuty@gmail.com">minaliuty@gmail.com</a>
+        </p>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/minatliu" target="_blank">LinkedIn</a>
+            <a href="https://github.com/mina1iu" target="_blank">GitHub</a>
         </div>
-        <!-- <a href="page3.html">PAGE 3</a> -->
-      </li>
-    </ul>
-  </div>
-  <!-- END OF NAV BAR -->
 
-  <div class="filler">
-    <br><br>
-  </div>
+    </div>
+</div>
 
-  <div class='feedback'>
-    <form>
-      <h1 class='aboutHeader'><br><br>Share Your Feedback</h1>
-      <label class='feedback-label'>Name<br>
-        <input placeholder="Type Here" type="text">
-      </label><br><br><br><br>
-      <label class='feedback-label'>Email<br>
-        <input type="email" placeholder="Type Here">
-      </label> <br><br><br><br>
-      <label class='feedback-label'>Feedback<br>
-        <textarea placeholder="Type Here" rows="4" cols="50">
-  </textarea></label>
-      <br><br><br><br> <br><br>
-      <button id='feedback-button' onclick="alert('Message Sent')">Submit</button>
-    </form> <br><br><br><br>
-    <div id="feedback-message"></div>
-  </div>
-
-  <script src="script.js"></script>
-  <br><br><br><br>
-
-  <footer>
-    <p>Eatiquette helps you eat worldwide - the right way.</p>
-    <a href = "contact.html"><p class = "feedbackLink">Feedback for Eatiquette!</p></a>
-    <p class=footer-deets>Philadephia, PA 2024</p>
-  </footer>
-
+<footer id="footer-placeholder"></footer>
 
 </body>
-
-
-
 </html>

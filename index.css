@@ -242,5 +242,57 @@ footer {
   background-color: #003049;
   text-align: left;
   padding: 10px;
-  /* You were missing a closing brace here, I added it */
+}
+
+
+
+/* --- Contact Page --- */
+
+.contact-page-wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  min-height: 60vh;
+}
+
+
+.contact-email-link {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.contact-email-link a {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #003049;
+  text-decoration: none;
+  border-bottom: 2px solid #003049;
+  padding-bottom: 4px;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.contact-email-link a:hover {
+  color: #FCBF49;
+  border-color: #FCBF49;
+}
+
+
+.social-links {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #ddd;
+}
+
+.social-links a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #627E8B;
+  text-decoration: none;
+  margin: 0 20px;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #003049;
 }
