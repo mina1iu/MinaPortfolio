@@ -88,7 +88,20 @@ p {
 }
 
 /* --- NAVIGATION BAR --- */
-ul {
+
+/* This new rule styles the main <div class="navbar"> */
+.navbar {
+  background-color: #003049;
+  z-index: 999;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* This rule was renamed from 'ul' to '.navbar ul' */
+.navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -111,15 +124,8 @@ li a {
   text-decoration: none;
 }
 
-.nav-bar {
-  background-color: #003049;
-  z-index: 999;
-  color: white;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
+/* This rule (.nav-bar) has been deleted */
+
 
 .dropdown {
   position: relative;
@@ -139,6 +145,7 @@ li a {
   /* Removed position: relative and top: 14px; flexbox handles alignment */
 }
 
+/* This rule was already correct */
 .navbar a:hover,
 .dropdown:hover .dropbtn {
   color: #FCBF49;
@@ -199,7 +206,7 @@ mark.homebutton-text {
 
 
 .container {
-  max-width: 1140px;
+  max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
@@ -235,3 +242,5 @@ footer {
   background-color: #003049;
   text-align: left;
   padding: 10px;
+  /* You were missing a closing brace here, I added it */
+}
